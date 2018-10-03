@@ -12,10 +12,30 @@
 
 <body>
 
+    <style>
+        body {
+            background: #748499;
+        }
+
+        .wrapper {
+            width: 60%;
+            margin: 0 auto;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #ddd;
+
+        }
+    </style>
+
 
     <script>
         var array = [];
-        var secrateCode = 'zuber';
+        var secrateCode = 'secrate';
         window.addEventListener('keyup', (e) => {
             array.push(e.key);
             console.log(array);
@@ -25,6 +45,12 @@
             }
         });
     </script>
+
+    <div class="wrapper">
+        <h3>Type the SecrateCode to reach to javascript.info</h3>
+        <h4>Type the SecrateCode is (secrate)</h4>
+    </div>
+
 </body>
 
 </html>
